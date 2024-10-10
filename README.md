@@ -1,8 +1,23 @@
+Setup this code:-
+step 1: download code and open vs code 
+step 2: after that create folder config and inside config folder create file config.env
+step 3: add this data
+PORT = 4000  // any port to run         
+MONGO_URI =  mongodb+srv://<username>:<password>@cluster0.jt9vn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0  //pls create own mongo_uri (username and password) 
+FRONTEND_URL = http://localhost:3000
+JWT_SECRET_KEY = dxcfgvjskdcdsvvdxds
+JWT_EXPIRE=7d
+COOKIE_EXPIRE=5
 
-(mandatory)Run Server Command - npm start
+step 4: then run commant - npm start
+step 5: test all api's in postman available below.   (postman extension download in vs code create collection -> request -> then paste the api and use it)
 
 
-User API Endpoints:---------
+<--------------------------------------------------API's------------------------------------------------------->
+
+
+
+------------------------------User API Endpoints:---------------------------
 
 User Registration
 1.Endpoint: http://localhost:4000/api/v1/user/register    ||  https://admin-assignment-portal-backend.onrender.com/api/v1/user/register
@@ -40,9 +55,10 @@ Fetch All Admins
 1.Endpoint: http://localhost:4000/api/v1/user/admin     ||  https://admin-assignment-portal-backend.onrender.com/api/v1/user/admin
 2.Method: GET
 
-----------------------------------------------------------------
 
-Admin API Endpoints :---------------------------------------
+
+
+------------------------------------------------Admin API Endpoints :---------------------------------------
 
 
 Fetch Assignments by Admin
@@ -65,6 +81,7 @@ Reject Assignment
 4.Description: Changes the status of the assignment from pending to rejected.
 
 ------------------------------------------------------------------------------------------------------------------------
+
 
 
 
