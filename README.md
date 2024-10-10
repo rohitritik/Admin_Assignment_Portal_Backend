@@ -74,22 +74,7 @@ Deployment on Render
 3.http://localhost:4000 replace url(after deploy backend) --> https://admin-assignment-portal-backend.onrender.com  (use like- https://admin-assignment-portal-backend.onrender.com/api/v1/user/admin)
 
 
-User Side ---------
-https://admin-assignment-portal-backend.onrender.com/api/v1/user/register
-https://admin-assignment-portal-backend.onrender.com/api/v1/user/login
-https://admin-assignment-portal-backend.onrender.com/api/v1/user/upload   //upload assignment userId,task,admin
-https://admin-assignment-portal-backend.onrender.com/api/v1/user/admin    //fetch all admins
-
-
-Admin Side--------
-https://admin-assignment-portal-backend.onrender.com/api/v1/assignment/assignments?admin=Alok  
-https://admin-assignment-portal-backend.onrender.com/api/v1/assignment/assignments/:id/accept   //status change pending to accept  id=6707b09a7676eb4bb1f963dd 
-https://admin-assignment-portal-backend.onrender.com/api/v1/assignment/assignments/:id/reject   //status change pending to reject  id=67078455b052782b86005a07
-
-
-
-
-
+-----------------------------------------------------------------------------------------------------------------
 
 
 About - Admin Assignment Portal
