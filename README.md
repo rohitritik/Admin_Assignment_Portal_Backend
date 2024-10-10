@@ -1,16 +1,17 @@
 Setup this code:-
-step 1: download code and open vs code 
-step 2: after that create folder config and inside config folder create file config.env
-step 3: add this data
+step 1: download this code and open vs code 
+step 2: install node module - npm install
+step 3: after that create folder config and inside config folder create file config.env
+step 4: add this data
 PORT = 4000  // any port to run         
-MONGO_URI =  mongodb+srv://<username>:<password>@cluster0.jt9vn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0  //pls create own mongo_uri (username and password) 
-FRONTEND_URL = http://localhost:3000
+MONGO_URI =  mongodb+srv://<username>:<password>@cluster0.jt9vn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0     //pls create own mongo_uri (mongoDB)
+FRONTEND_URL = http://localhost:3000              //optional  
 JWT_SECRET_KEY = dxcfgvjskdcdsvvdxds
 JWT_EXPIRE=7d
 COOKIE_EXPIRE=5
 
-step 4: then run commant - npm start
-step 5: test all api's in postman available below.   (postman extension download in vs code create collection -> request -> then paste the api and use it)
+step 5: then run commant - npm start
+step 6: test all api's in postman available below.   (postman extension download in vs code create collection -> request -> then paste the api and use it)
 
 
 <--------------------------------------------------API's------------------------------------------------------->
@@ -94,7 +95,7 @@ Deployment on Render
 -----------------------------------------------------------------------------------------------------------------
 
 
-About - Admin Assignment Portal
+About project - Admin Assignment Portal
 
 In Short - users to submit assignments and admins to review, accept, or reject them.
 
