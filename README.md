@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Admin Assignment Portal
 
 A platform that allows users to submit assignments and admins to review, accept, or reject them.
@@ -147,4 +146,3 @@ In simple terms, it's a platform where admins can log in, view assignments, and 
 ### For More Information
 Feel free to open an issue or contribute to this project on [GitHub](https://github.com/rohitritik/Admin_Assignment_Portal_Backend).
 
->>>>>>> 93cbe0a5b54dc45e0a86479bd1c03f961cd4b77e
